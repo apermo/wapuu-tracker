@@ -16,6 +16,8 @@
 /e2e/               export-ignore
 /playwright.config.js export-ignore
 /package.json       export-ignore
+/package-lock.json  export-ignore
+/src/blocks/        export-ignore
 /.lighthouserc.js   export-ignore
 /.wp-env.json       export-ignore
 CHANGELOG.md        export-ignore
