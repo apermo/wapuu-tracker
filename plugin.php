@@ -1,19 +1,19 @@
 <?php
 /*
- * Plugin Name: Plugin_Name
- * Description: A WordPress plugin.
+ * Plugin Name: Wapuu Tracker
+ * Description: GDPR-compliant, multisite-capable map of where Wapuus have travelled.
  * Version:     0.1.0
  * Author:      Christoph Daum
  * Author URI:  https://apermo.de
  * License:     GPL-2.0-or-later
- * Text Domain: plugin-name
+ * Text Domain: wapuu-tracker
  * Requires at least: 6.4
  * Requires PHP: 8.1
  */
 
 declare(strict_types=1);
 
-namespace Plugin_Name;
+namespace Apermo\WapuuTracker;
 
 \defined( 'ABSPATH' ) || exit();
 
@@ -32,7 +32,7 @@ if ( ! \class_exists( Main::class ) ) {
 				wp_kses(
 					\sprintf(
 						/* translators: %s: composer install command */
-						__( 'Please run %s to install the required dependencies.', 'plugin-name' ),
+						__( 'Please run %s to install the required dependencies.', 'wapuu-tracker' ),
 						'<code>composer install</code>',
 					),
 					[ 'code' => [] ],

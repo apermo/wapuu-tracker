@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Plugin_Name\Tests\Integration;
+namespace Apermo\WapuuTracker\Tests\Integration;
 
-use Plugin_Name\Main;
+use Apermo\WapuuTracker\Main;
 use WP_UnitTestCase;
 
 /**
