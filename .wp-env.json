@@ -1,5 +1,5 @@
 {
     "core": null,
-    "themes": ["."],
+    "plugins": ["."],
     "phpVersion": "8.4"
 }

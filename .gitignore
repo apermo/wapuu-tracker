@@ -1,4 +1,5 @@
 vendor/
+build/
 .phpunit.cache/
 wp-tests-config.php
 .idea/
